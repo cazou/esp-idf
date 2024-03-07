@@ -44,7 +44,7 @@ extern "C" {
 
 //On esp32, ADC can only be continuously triggered when `ADC_LL_DEFAULT_CONV_LIMIT_EN == 1`, `ADC_LL_DEFAULT_CONV_LIMIT_NUM != 0`
 #define ADC_LL_DEFAULT_CONV_LIMIT_EN      1
-#define ADC_LL_DEFAULT_CONV_LIMIT_NUM     10
+#define ADC_LL_DEFAULT_CONV_LIMIT_NUM     255
 
 /*---------------------------------------------------------------
                     PWDET (Power Detect)
